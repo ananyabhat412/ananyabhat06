@@ -1,0 +1,64 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  header {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  header p {
+    color: #777;
+    font-size: 1.1em;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+  }
+  
+  p, ul {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .contact p, .contact strong {
+    font-size: 1.1em;
+  }
+  
